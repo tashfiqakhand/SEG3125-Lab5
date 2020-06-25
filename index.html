@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Tashfiq Akhand 8219894 -->
+
+
+<!-- BOOTSTRAP -->
+  <head>
+  	<title>SEG3125 Module 4 - Labs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/service.js"></script>
+    
+  </head>
+<!-- /BOOTSTRAP -->
+
+
+ <body style="background-color:#3EBDB8;">
+
+<nav class="navbar navbar-expand-lg navbar-dark indigo bg-dark sticky-top">
+  <a class="navbar-brand" href="#">Tash's Cuts</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#barbers">Our Barbers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#reserve">Reserve</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+ 	<div class="container-md p-3 my-3 border bg-dark text-white" id="home">
+ 		<img src="images/logo.jpg" class="float-right rounded-circle" alt="Logo" width="100" height="100">
+        <h1>Welcome to <code>Tash's Cuts</code></h1>
+        <p>We'll take care of your hair!</p>
+    </div>
+
+    <div class="container-md p-3 my-3 border bg-light text-body">
+        <h3>Let us tell you about our story</h3>
+        <p>We are a 5 star Men's barber shop that was founded by Tashfiq Akhand in 
+        	1945. We started in a small shop helping locals get the haircut of their dreams and then flourished from there. We now own an established shop in <mark>742 Bondray Drive, K1W 9J1, Ottawa, Ontario</mark> and are <mark>open everyday from 10am to 6pm, except Sundays</mark>. If you want to make a reservation through the phone, please call <mark>613-252-9043</mark>. Reserve your seat and come on in to have the cut of your life!</p>
+    </div>
+
+    <div class="container">
+        <img src="images/cut.png" class="float-left" alt="Logo" width="50" height="50">
+  		<h2>Services Offered</h2>           
+  		<table class="table table-hover table-bordered">
+    		<thead>
+      			<tr>
+        			<th>Services</th>
+        			<th>Description</th>
+        			<th>Price</th>
+      			</tr>
+    		</thead>
+    		<tbody>
+      			<tr>
+        			<td>Haircut</td>
+        			<td>The most popular choice, a haircut that gives the styled hair of your dreams, any fade of your choice, and outline if wanted! <br>Duration: 45 mins</td>
+        			<td>$20</td>
+      			</tr>
+      			<tr>
+       				<td>Haircut + Beard</td>
+        			<td>Full package haircut that gives the styled hair of your dreams, any fade of your choice, outline if wanted, and a great beard fix up! <br>Duration: 1 hour</td>
+        			<td>$25</td>
+      			</tr>
+      			<tr>
+        			<td>Fade</td>
+        			<td>Any fade of your choice and outline if wanted.<br>Duration: 20 minutes</td>
+        			<td>$12</td>
+      			</tr>
+    		</tbody>
+  		</table>
+	</div>
+
+
+	<div class="container p-3" id="barbers">
+        <img src="images/chair.png" class="float-left" alt="Logo" width="50" height="50">
+        <h2>Meet our Barbers</h2>
+        <div class="card-columns">
+            <div class="card bg-primary" style="width:200px">
+                <img class="card-img-top" src="images/Felix.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Felix</h4>
+                    <p class="card-text">The Fade Specialist!</p>
+                    <a href="#profile1" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile1" class="collapse p-3">
+                        <p>Felix has been cutting hair for 8 years and is famous for his fades! He has been working in the shop for 4 years now and is a valuable member of our team! </p><br>
+                            <b><u>Availability:</u> Mondays, Tuesdays, and Wednesdays.</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-primary" style="width:200px">
+                <img class="card-img-top" src="images/Pablo.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Pablo</h4>
+                    <p class="card-text">The Curly Hair Specialist and <i><b>Owner</b></i></p>
+                    <a href="#profile2" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile2" class="collapse p-3">
+                        <p>Pablo has been cutting hair for 20 years and has been the owner of <code>Tash's Cuts</code> for 12 years now. He is an exceptional barber with experience!</p><br>
+                            <b><u>Availability:</u> Tuesday, Wednesday, Thursday, and Friday.</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-primary" style="width:200px">
+                <img class="card-img-top" src="images/Calvin.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Calvin</h4>
+                    <p class="card-text">The Stylist</p>
+                    <a href="#profile3" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile3" class="collapse p-3">
+                        <p>Calvin has been cutting hair for 11 years and has been part of our team for 8 years now. He specializes in amazing styles and has gave a few celebrities an epic haircut such as Zayne Malik and Justin Bieber.</p><br>
+                            <b><u>Availability:</u> Thursdays, Fridays, and Saturdays.</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Seats Fill up Fast! Reserve Now!</strong>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="reserve">
+        <div class="container-md p-3 my-3 border bg-success text-white">
+            <img src="images/reserve.png" class="float-left" alt="Logo" width="50" height="50">
+            <h2>Book your Appointment!</h1>
+        </div>
+        <div id="accordion">
+            
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/cut.png" class="float-left" alt="Logo" width="30" height="30">
+                    <a class="card-link" data-toggle="collapse" href="#collapseService">Choose a service</a>
+                </div>
+                <div id="collapseService" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Here is our list of services:</p>
+						<input type="radio" name="Haircut" value="Haircut"> Haircut ($20)<br>
+						<input type="radio" name="Haircut&Beard" value="Haircut&Beard"> Haircut + Beard ($25)<br>
+						<input type="radio" name="Fade" value="Fade"> Fade ($12)<br>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/chair.png" class="float-left" alt="Logo" width="30" height="30">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseBarber">Choose a Barber and a Date</a>
+                </div>
+                <div id="collapseBarber" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Here is our list of Barbers and the date you can reserve within their availability:</p>
+                        <input type="radio" name="Felix" value="Felix"> Felix<br>
+                        Date:  <input type="text" id="dateInput1"></p>
+                        <input type="radio" name="Pablo" value="Pablo"> Pablo<br>
+                        Date:  <input type="text" id="dateInput2"></p>
+                        <input type="radio" name="Calvin" value="Calvin"> Calvin<br>
+                        Date:  <input type="text" id="dateInput3"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate">Choose a date</a>
+                </div>
+                <div id="collapseDate" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Please select a date in which you are available.</p>
+                        <div class="form-group row">
+                            <div class="col-10">
+                                
+                                <input type="text" id="dateInput"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+<!-- <input class="form-control" type="datetime-local" value="2020-06-24T13:45:00" id="dateInput"> -->
+
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/card.png" class="float-left" alt="Logo" width="30" height="30">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsePay">Credit card info</a>
+                </div>
+                <div id="collapsePay" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Please enter your credit card information. We ask for your credit card number in case of no-show, 7$ will be charged.</p>
+                        Credit Card: <input value="xxxxxxxxxxxxxxxx" type="text" name="credit" id="credit"><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <img src="images/profile.png" class="float-left" alt="Logo" width="30" height="30">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseClientInfo">Your info</a>
+                </div>
+                <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Please enter your information so we can contact you to reserve a time for the date entered.</p>
+                        <form action="https://tashfiqakhand.github.io/" name="my form" method="POST">
+						First name: <input type="test" name="firstname"><br>
+						Last name: <input type="test" name="lastname"><br>
+						Email: <input type="test" name="email"><br>
+						Phone Number: <input value="xxxxxxxxxx" type="text" name="phone" id="phone"><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+  				<button type="submit" class="btn-lg btn-success">Reserve</button>
+			</div>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
